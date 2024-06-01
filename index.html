@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your brief introduction goes here.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/your-photo.jpg" alt="Your Photo">
+            <p>Your detailed biography and personal story.</p>
+            <a href="resume.pdf" download>Download Resume</a>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-content">
+            <div class="achievement-item">
+                <img src="images/award1.jpg" alt="Award 1">
+                <p>Details of award 1.</p>
+            </div>
+            <!-- Repeat for other achievements -->
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <div class="skill-item">
+                <p>HTML</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <!-- Repeat for other skills -->
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-content">
+            <div class="project-item">
+                <img src="images/project1.jpg" alt="Project 1">
+                <p>Details of project 1.</p>
+                <a href="https://github.com/your-repo" target="_blank">View on GitHub</a>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+    </section>
+    
+    <section id="badges">
+        <h2>Badges</h2>
+        <div class="badges-content">
+            <img src="icons/badge1.png" alt="Badge 1">
+            <!-- Repeat for other badges -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/YOUREMAIL" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/your-profile" target="_blank">GitHub</a>
+            <a href="https://twitter.com/your-profile" target="_blank">Twitter</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
